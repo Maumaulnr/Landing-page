@@ -688,7 +688,7 @@ footer {
     }
 
     section:not(#home, .parallax-started-container, #creativity-container) {
-        padding: 50px 0;
+        padding: 50px 1%;
     }
 
     .top-nav {
@@ -748,7 +748,7 @@ footer {
 
 /* icon social network : HOME */
     .top-social-icon {
-        padding: 15px;
+        padding: 9px;
         font-size: 2em;
     }
 
@@ -762,7 +762,7 @@ footer {
     }
 
     .presentation-container, #home-img-illustration:not(#subscribe-container) {
-        min-width: 400px;
+        min-width: 366px;
         max-width: 40%;
     }
 
@@ -782,17 +782,18 @@ footer {
         display: block;
         width: 80%;
         text-align: center;
+        padding-bottom: 8px;
     }
     
     .presentation-container > form > input {
         width: 100%;
         text-align: center;
         font-size: 1.2em;
-        padding-bottom: 10px ;
+        padding: 5px 0 16px 0;
     }
 
     .presentation-container > form > button {
-        font-size: 1em;
+        font-size: 1.2em;
         padding: 0.5em;
     }
 
@@ -802,9 +803,18 @@ footer {
         max-width: 80%;
     }
 
+    .centered-article > button {
+        font-size: 1.4em;
+    }
+
+    #avatars-container {
+        min-width: 100px;
+        max-width: 80%;
+    }
+
 /* BLOG */
     .paragraph-grey-light {
-        width: 50%;
+        width: 80%;
     }
 
     #blog-cards {
@@ -813,6 +823,8 @@ footer {
     }
 
     #blog-card-container {
+        min-width: 263px;
+        max-width: 84%;
         text-align: center;
     }
 
@@ -854,17 +866,33 @@ footer {
     
 
 /* FOOTER */
+    #social-network-icons-container {
+        width: 100%;
+    }
+
+    #social-network-icons-container > a {
+        padding: 10px;
+        font-size: 1.5;
+    }
+
     #global-footer-links span:after {
         display: none;
         margin: 0;
     }
 
     #global-footer-links {
-        width: 80%;
+        width: 100%;
+        text-align: center;
+        font-size: 1.2em;
     }
 
     #global-footer-links > span {
-        padding: 0 2%;
+        padding: 12px 2%;
+    }
+
+    small {
+        text-align: center;
+        font-size: 1em;
     }
 
 }
