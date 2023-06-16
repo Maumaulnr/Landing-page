@@ -171,10 +171,10 @@ nav li {
     gap: 6%;
 }
 
-/* .presentation-container, #home-img-illustration {
+.presentation-container, #home-img-illustration {
     min-width: 263px;
     max-width: 30%;
-} */
+}
 
 .presentation-container {
     flex: 2;
@@ -639,7 +639,7 @@ footer {
     color: #9a9c9f;
 }
 
-.fa-facebook-f {
+.different {
     border: 2px solid #9a9c9f;
     border-radius: 50%;
     padding: 12px 19px;
@@ -808,75 +808,10 @@ footer {
 
 }
 
-
-/* <769px*/
-@media (max-width: 769px) {
-    section:not(#home, .parallax-started-container, #creativity-container) {
-        padding: 50px 0;
-    }
-
-    .top-nav {
-        padding: 20px 3%;
-    }
-
-    .navbar {
-        min-height: 0;
-    }
-
-    .presentation-img-container {
-        padding: 20px 5%;
-    }
-
-    .presentation-container > form {
-        width: 100%;
-        padding: 0.5em;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;   /*center the button */
-    }
-    
-    .presentation-container > form > input {
-        padding: 0.5em 0;
-        text-align: center;
-        font-size: 1em;
-    }
-
-    .presentation-container > form > button {
-        font-size: 0.8em;
-        padding: 0.5em;
-    }
-
-/* PRODUCTS FEATURES */
-    .card-container {
-        min-width: 263px;
-        max-width: 46%;
-    }
-
-/* TEAMS */
-    #team-container > h2 {
-        width: 89%;
-    }
-
-    .paragraph-grey-light {
-        width: 83%;
-    }
-
-    /* BLOG */
-    #blog-card-container {
-        text-align: center;
-    }
-
-    #blog-card-container {
-        min-width: 263px;
-        max-width: 45%;
-    }
-
-}
-
 /* **********************MAX-WIDTH 768***************************** */
 
 /* <768px */
-@media (max-width: 768px) {
+@media screen and (min-width: 321px) and (max-width: 768px) {
     .hamburger {
         display: block;
     }
@@ -908,9 +843,13 @@ footer {
         width: 100%;
         text-align: center;
         transition: 0.3s;
-        top: 30px;
+        top: 3px;
         opacity: 0.9;
         padding: 10px 0;
+    }
+
+    .nav-item a {
+        font-size: 1.3em;
     }
 
     nav li {
@@ -927,7 +866,12 @@ footer {
 
 /* section HOME */
     #home {
-        padding: 0 15px;
+        padding: 0 15px 30px 15px;
+    }
+
+    .presentation-container, #home-img-illustration {
+        min-width: 263px;
+        max-width: 46%;
     }
 
     .presentation-img-container {
@@ -992,6 +936,10 @@ footer {
         text-align: center;
     }
 
+    #blog-card-container a {    /* read more */
+        font-size: 1.3em;
+    }    
+
 /* CREATIVITY */
     #creativity-container {
         display: flex;
@@ -1017,10 +965,6 @@ footer {
         padding-top: 55px;
     }
 
-    /* #creativity-text > p {
-        text-align: center;
-    } */
-
 /* PRICING */
     #pricing-table:nth-child(2) {
         margin-bottom: 0;
@@ -1029,7 +973,56 @@ footer {
     #pricing-table:nth-child(3) {
         margin-top: 25px;
     }
+
+    #pricing-table button {
+        font-size: 1.3em;
+    }
+
+/* FOOTER */
+    .different {    /* logo facebook */
+        padding: 12px 16px;
+    }
 }
+
+@media screen and (min-width:321px) and (max-width:480px) {
+    .presentation-container > form {
+        width: 114%;
+        padding: 0.3em;
+    }
+    
+    .presentation-container > form > input {
+        padding: 0.5em 0;
+        font-size: 1em;
+    }
+
+    .presentation-container > form > button {
+        font-size: 0.8em;
+        padding: 0.5em;
+    }
+
+/* PRODUCTS FEATURES */
+    .card-container {
+        max-width: 75%;
+    }
+
+/* PARALLAX */
+    .centered-article > button {
+        font-size: 1.2em;
+    }
+
+/* BLOG */
+    #blog-card-container {
+        max-width: 78%;
+    }
+
+/* PRICING */
+    #pricing-table:nth-child(2) {
+        margin-top: 30px;
+    }
+
+
+}
+
 
 /* ****************************** 320PX ***************************************** */
 
