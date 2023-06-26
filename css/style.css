@@ -113,6 +113,10 @@ section:not(#home, .parallax-started-container, #creativity-container) {
     color: white;
 }
 
+.top-nav > h1 {
+    font-size: 2.2em;
+}
+
 nav > ul {
     display: flex;
     flex-direction: row;
@@ -156,6 +160,7 @@ nav li {
     padding: 7px;
     display: inline-block;
     color: #fff;
+    font-size: 1.4em;
 }
 
 
@@ -192,7 +197,7 @@ nav li {
 .presentation-container > form {
     width: 100%;
     padding: 0.1em;
-    border-radius: 1em;
+    border-radius: 1.3em;
     background-color: #deecf5;
     display: flex;
     flex-direction: row;
@@ -202,7 +207,7 @@ nav li {
 .presentation-container > form > button {
     color: #fff;
     background-color: rgb(99 182 220);
-    font-size: 0.6em;
+    font-size: 0.9em;
     padding: 0.8em;
     border-radius: 2.2em;
     border: none;
@@ -214,6 +219,7 @@ nav li {
     padding-left: 0.9em;
     border: none;
     background-color: transparent;
+    font-size: 1em;
 }
 
 .presentation-container > form > input:focus-visible {
