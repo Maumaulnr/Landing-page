@@ -1,0 +1,1 @@
+Projet de landing page réalisé avec Elan Formation en HTML, CSS et Javascript pour se familiariser avec le concept de page unique ainsi que la création de sections et approfondir les connaissances en CSS et l'utilisation de Javascript pour le menu burger pour le responsive design.
